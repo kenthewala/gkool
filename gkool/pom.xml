@@ -15,6 +15,11 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
+			<groupId>com.objectdb</groupId>
+			<artifactId>objectdb</artifactId>
+			<version>2.6.3</version>
+		</dependency>
+		<dependency>
 			<groupId>org.eclipse.persistence</groupId>
 			<artifactId>javax.persistence</artifactId>
 			<version>2.1.0</version>
@@ -132,6 +137,12 @@
 			<id>xuggle repo</id>
 			<url>http://xuggle.googlecode.com/svn/trunk/repo/share/java/</url>
 		</repository>
+		<repository>
+			<id>objectdb</id>
+			<name>ObjectDB Repository</name>
+			<url>http://m2.objectdb.com</url>
+		</repository>
+
 	</repositories>
 
 

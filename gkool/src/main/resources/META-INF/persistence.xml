@@ -6,6 +6,7 @@
  
   <persistence-unit name="GuestbookPU" transaction-type="RESOURCE_LOCAL">
     <provider>com.objectdb.jpa.Provider</provider>
+    <class>gkool.ScoreSheet</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/gkool"/>
 			<property name="javax.persistence.jdbc.user" value="postgres"/>
